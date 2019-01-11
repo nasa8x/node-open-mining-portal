@@ -190,7 +190,7 @@ var spawnPoolWorkers = function () {
     });
 
     if (Object.keys(poolConfigs).length === 0) {
-        logger.warn('PoolSpawner: No pool configs exists or are enabled in pool_configs folder. No pools spawned.');
+        logger.warn('PoolSpawner: No pool configs exists or are enabled in configs folder. No pools spawned.');
         return;
     }
 

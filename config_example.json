@@ -34,16 +34,16 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
-        "port": 80,
-        "stratumHost": "cryppit.com",
+        "host": "127.0.0.1",
+        "port": 8080,
+        "stratumHost": "localhost",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
             "hashrateWindow": 300
         },
         "adminCenter": {
-            "enabled": true,
+            "enabled": false,
             "password": "password"
         }
     },

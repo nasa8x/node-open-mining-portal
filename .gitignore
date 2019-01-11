@@ -2,6 +2,7 @@ node_modules/
 .idea/
 config.json
 configs/*.json
+!configs/geekcash_example.json
 !configs/litecoin_example.json
 !configs/vertcoin_example.json
 logs/

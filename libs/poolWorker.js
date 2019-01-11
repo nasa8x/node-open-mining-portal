@@ -219,7 +219,7 @@ module.exports = function () {
             }
 
             else if (isValidBlock) {
-                logger.info('Block found: %s', data.blockHash + ' by %s', data.worker);
+                logger.info('Block found: %s by %s', data.blockHash, data.worker);
             }
             if (isValidShare) {
                 if (data.shareDiff > 1000000000) {
